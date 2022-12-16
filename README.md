@@ -333,7 +333,7 @@ _____
 
 ## Diagram: Diagram 1
 
-<img src="./images/image1.png" />
+<img src="./images/image1.png?sanitize=true" />
 
 ### Diagram 1 Diagram Summary:
 
@@ -395,7 +395,7 @@ _____
 
 ### Interaction: Request
 
-<img src="./images/image2.png">
+<img src="./images/image2.png?sanitize=true" />
 <div class="threat">
 
 #### <span>1\. An adversary can leverage the weak scalability of token cache and cause DoS</span>  [State: Not Started]  [Priority: High] 
@@ -668,7 +668,7 @@ _____
 
 ### Interaction: Request
 
-<img src="./images/image3.png">
+<img src="./images/image3.png?sanitize=true" />
 
 <div class="threat">
 
@@ -942,7 +942,7 @@ _____
 
 ### Interaction: Request
 
-<img src="./images/image4.png">
+<img src="./images/image4.png?sanitize=true" />
 
 <div class="threat">
 
@@ -1270,7 +1270,7 @@ _____
 
 ### Interaction: Request
 
-<img src="./images/image5.png">
+<img src="./images/image5.png?sanitize=true" />
 
 <div class="threat">
 
@@ -1706,7 +1706,7 @@ _____
 
 ### Interaction: Response
 
-<img src="./images/image6.png" />
+<img src="./images/image6.png?sanitize=true" />
 
 <div class="threat">
 
@@ -1818,7 +1818,7 @@ _____
 
 ### Interaction: Response
 
-<img src="./images/image7.png" />
+<img src="./images/image7.png?sanitize=true" />
 
 <div class="threat">
 
@@ -1983,7 +1983,7 @@ _____
 </div>
 
 ### Interaction: Response
-<img src="./images/image8.png" />
+<img src="./images/image8.png?sanitize=true" />
 
 <div class="threat">
 
@@ -2203,7 +2203,7 @@ _____
 
 ### Interaction: Response
 
-<img src="./images/image9.png" />
+<img src="./images/image9.png?sanitize=true" />
 
 <div class="threat">
 
