@@ -432,7 +432,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Override the default ADAL token cache with a scalable alternative. Refer: <a href="https://aka.ms/tmtauthn#adal-scalable">https://aka.ms/tmtauthn#adal-scalable</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Override the default ADAL token cache with a scalable alternative. Refer: <a href="https://aka.ms/tmtauthn#adal-scalable">https://aka.ms/tmtauthn#adal-scalable</a></td>
 
 </tr>
 
@@ -486,7 +486,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a></td>
 
 </tr>
 
@@ -540,7 +540,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Use standard authentication scenarios supported by Azure Active Directory. Refer: <a href="https://aka.ms/tmtauthn#authn-aad">https://aka.ms/tmtauthn#authn-aad</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Use standard authentication scenarios supported by Azure Active Directory. Refer: <a href="https://aka.ms/tmtauthn#authn-aad">https://aka.ms/tmtauthn#authn-aad</a></td>
 
 </tr>
 
@@ -594,7 +594,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a> Enable Azure Multi-Factor Authentication for Azure Administrators. Refer: <a href="https://aka.ms/tmtauthn#multi-factor-azure-admin">https://aka.ms/tmtauthn#multi-factor-azure-admin</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a> Enable Azure Multi-Factor Authentication for Azure Administrators. Refer: <a href="https://aka.ms/tmtauthn#multi-factor-azure-admin">https://aka.ms/tmtauthn#multi-factor-azure-admin</a></td>
 
 </tr>
 
@@ -648,7 +648,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Ensure that TokenReplayCache is used to prevent the replay of ADAL authentication tokens. Refer: <a href="https://aka.ms/tmtauthn#tokenreplaycache-adal">https://aka.ms/tmtauthn#tokenreplaycache-adal</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Ensure that TokenReplayCache is used to prevent the replay of ADAL authentication tokens. Refer: <a href="https://aka.ms/tmtauthn#tokenreplaycache-adal">https://aka.ms/tmtauthn#tokenreplaycache-adal</a></td>
 
 </tr>
 
@@ -706,7 +706,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Network level denial of service mitigations are automatically enabled as part of the Azure platform (Basic Azure DDoS Protection). Refer: <a href="https://aka.ms/tmt-th165a">https://aka.ms/tmt-th165a</a>. Implement application level throttling (e.g. per-user, per-session, per-API) to maintain service availability and protect against DoS attacks. Leverage Azure API Management for managing and protecting APIs. Refer: <a href="https://aka.ms/tmt-th165b">https://aka.ms/tmt-th165b</a>. General throttling guidance, refer: <a href="https://aka.ms/tmt-th165c">https://aka.ms/tmt-th165c</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Network level denial of service mitigations are automatically enabled as part of the Azure platform (Basic Azure DDoS Protection). Refer: <a href="https://aka.ms/tmt-th165a">https://aka.ms/tmt-th165a</a>. Implement application level throttling (e.g. per-user, per-session, per-API) to maintain service availability and protect against DoS attacks. Leverage Azure API Management for managing and protecting APIs. Refer: <a href="https://aka.ms/tmt-th165b">https://aka.ms/tmt-th165b</a>. General throttling guidance, refer: <a href="https://aka.ms/tmt-th165c">https://aka.ms/tmt-th165c</a></td>
 
 </tr>
 
@@ -760,7 +760,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Store secrets in secret storage solutions where possible, and rotate secrets on a regular cadence. Use Managed Service Identity to create a managed app identity on Azure Active Directory and use it to access AAD-protected resources. Refer: <a href="https://aka.ms/tmt-th166">https://aka.ms/tmt-th166</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Store secrets in secret storage solutions where possible, and rotate secrets on a regular cadence. Use Managed Service Identity to create a managed app identity on Azure Active Directory and use it to access AAD-protected resources. Refer: <a href="https://aka.ms/tmt-th166">https://aka.ms/tmt-th166</a></td>
 
 </tr>
 
@@ -814,7 +814,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Restrict access to Azure App Service to selected networks (e.g. IP whitelisting, VNET integrations). Refer: <a href="https://aka.ms/tmt-th167">https://aka.ms/tmt-th167</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Restrict access to Azure App Service to selected networks (e.g. IP whitelisting, VNET integrations). Refer: <a href="https://aka.ms/tmt-th167">https://aka.ms/tmt-th167</a></td>
 
 </tr>
 
@@ -868,7 +868,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Implement proper logout using ADAL methods when using Azure AD. Refer: <a href="https://aka.ms/tmt-th172">https://aka.ms/tmt-th172</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Implement proper logout using ADAL methods when using Azure AD. Refer: <a href="https://aka.ms/tmt-th172">https://aka.ms/tmt-th172</a></td>
 
 </tr>
 
@@ -922,7 +922,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Ensure that only trusted origins are allowed if CORS is being used. Refer: <a href="https://aka.ms/tmt-th176">https://aka.ms/tmt-th176</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Ensure that only trusted origins are allowed if CORS is being used. Refer: <a href="https://aka.ms/tmt-th176">https://aka.ms/tmt-th176</a></td>
 
 </tr>
 
@@ -980,7 +980,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Restrict access to Azure Key Vault instances by configuring firewall rules to permit connections from selected networks (e.g. a virtual network or a custom set of IP addresses).For Key Vault client applications behind a firewall trying to access a Key Vault instance, see best practices mentioned here: <a href="https://aka.ms/tmt-th179 ">https://aka.ms/tmt-th179 </a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Restrict access to Azure Key Vault instances by configuring firewall rules to permit connections from selected networks (e.g. a virtual network or a custom set of IP addresses).For Key Vault client applications behind a firewall trying to access a Key Vault instance, see best practices mentioned here: <a href="https://aka.ms/tmt-th179 ">https://aka.ms/tmt-th179 </a></td>
 
 </tr>
 
@@ -1034,7 +1034,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable audit logging on Azure Key Vault instances to monitor how and when the instances are access, and by whom. Use standard Azure access controls to restrict access to the logs. Refer : <a href="https://aka.ms/tmt-th180 ">https://aka.ms/tmt-th180 </a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable audit logging on Azure Key Vault instances to monitor how and when the instances are access, and by whom. Use standard Azure access controls to restrict access to the logs. Refer : <a href="https://aka.ms/tmt-th180 ">https://aka.ms/tmt-th180 </a></td>
 
 </tr>
 
@@ -1088,7 +1088,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Access to the Azure Key Vault management plane should be restricted by choosing appropriate Role-Based Access Control (RBAC) roles and privileges in accordance with the principle of least privilege. Over permissive or weak authorization rules may potentially permit data plane access (e.g. a user with Contribute (RBAC) permissions to Key Vault management plane may grant themselves access to the data plane by setting the Azure Key Vault access policy). Refer : <a href="https://aka.ms/tmt-th181 ">https://aka.ms/tmt-th181 </a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Access to the Azure Key Vault management plane should be restricted by choosing appropriate Role-Based Access Control (RBAC) roles and privileges in accordance with the principle of least privilege. Over permissive or weak authorization rules may potentially permit data plane access (e.g. a user with Contribute (RBAC) permissions to Key Vault management plane may grant themselves access to the data plane by setting the Azure Key Vault access policy). Refer : <a href="https://aka.ms/tmt-th181 ">https://aka.ms/tmt-th181 </a></td>
 
 </tr>
 
@@ -1142,7 +1142,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Limit Azure Key Vault data plane access by configuring strict access policies. Grant users, groups and applications the ability to perform only the necessary operations against keys or secrets in a Key Vault instance. Follow the principle of least privilege and grant privileges only as needed. Refer : <a href="https://aka.ms/tmt-th181 ">https://aka.ms/tmt-th181 </a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Limit Azure Key Vault data plane access by configuring strict access policies. Grant users, groups and applications the ability to perform only the necessary operations against keys or secrets in a Key Vault instance. Follow the principle of least privilege and grant privileges only as needed. Refer : <a href="https://aka.ms/tmt-th181 ">https://aka.ms/tmt-th181 </a></td>
 
 </tr>
 
@@ -1196,7 +1196,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Use managed identities for Azure resources and details can be found here at <a href="https://aka.ms/tmt-th183 ">https://aka.ms/tmt-th183 </a>. If managed identities is not supported , use Service/User Principal and Certificate. If none of the above options are feasible, please ensure secure management and storage of Azure Key Vault Service/User Principal secret . It is recommended to rotate service/user principal secret regularly, in accordance with organizational policies.</td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Use managed identities for Azure resources and details can be found here at <a href="https://aka.ms/tmt-th183 ">https://aka.ms/tmt-th183 </a>. If managed identities is not supported , use Service/User Principal and Certificate. If none of the above options are feasible, please ensure secure management and storage of Azure Key Vault Service/User Principal secret . It is recommended to rotate service/user principal secret regularly, in accordance with organizational policies.</td>
 
 </tr>
 
@@ -1250,7 +1250,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Key Vault's soft delete feature allows recovery of the deleted vaults and vault objects, known as soft-delete . Soft deleted resources are retained for a set period of time, 90 days. Refer : <a href="https://aka.ms/tmt-th186 ">https://aka.ms/tmt-th186 </a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Key Vault's soft delete feature allows recovery of the deleted vaults and vault objects, known as soft-delete . Soft deleted resources are retained for a set period of time, 90 days. Refer : <a href="https://aka.ms/tmt-th186 ">https://aka.ms/tmt-th186 </a></td>
 
 </tr>
 
@@ -1308,7 +1308,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> When possible use Azure Active Directory Authentication for connecting to SQL Database. Refer: <a href="https://aka.ms/tmt-th10a">https://aka.ms/tmt-th10a</a> Ensure that least-privileged accounts are used to connect to Database server. Refer: <a href="https://aka.ms/tmt-th10b">https://aka.ms/tmt-th10b</a> and <a href="https://aka.ms/tmt-th10c">https://aka.ms/tmt-th10c</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> When possible use Azure Active Directory Authentication for connecting to SQL Database. Refer: <a href="https://aka.ms/tmt-th10a">https://aka.ms/tmt-th10a</a> Ensure that least-privileged accounts are used to connect to Database server. Refer: <a href="https://aka.ms/tmt-th10b">https://aka.ms/tmt-th10b</a> and <a href="https://aka.ms/tmt-th10c">https://aka.ms/tmt-th10c</a></td>
 
 </tr>
 
@@ -1362,7 +1362,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Restrict access to Azure SQL Database instances by configuring server-level and database-level firewall rules to permit connections from selected networks (e.g. a virtual network or a custom set of IP addresses) where possible. Refer:<a href="https://aka.ms/tmt-th143">https://aka.ms/tmt-th143</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Restrict access to Azure SQL Database instances by configuring server-level and database-level firewall rules to permit connections from selected networks (e.g. a virtual network or a custom set of IP addresses) where possible. Refer:<a href="https://aka.ms/tmt-th143">https://aka.ms/tmt-th143</a></td>
 
 </tr>
 
@@ -1416,7 +1416,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Clients connecting to an Azure SQL Database instance using a connection string should ensure encrypt=true and trustservercertificate=false are set. This configuration ensures that connections are encrypted only if there is a verifiable server certificate (otherwise the connection attempt fails). This helps protect against Man-In-The-Middle attacks. Refer: <a href="https://aka.ms/tmt-th144">https://aka.ms/tmt-th144</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Clients connecting to an Azure SQL Database instance using a connection string should ensure encrypt=true and trustservercertificate=false are set. This configuration ensures that connections are encrypted only if there is a verifiable server certificate (otherwise the connection attempt fails). This helps protect against Man-In-The-Middle attacks. Refer: <a href="https://aka.ms/tmt-th144">https://aka.ms/tmt-th144</a></td>
 
 </tr>
 
@@ -1470,7 +1470,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable Transparent Data Encryption (TDE) on Azure SQL Database instances to have data encrypted at rest. Refer:<a href="https://aka.ms/tmt-th145a">https://aka.ms/tmt-th145a</a>. Use the Always Encrypted feature to allow client applications to encrypt sensitive data before it is sent to the Azure SQL Database. Refer: <a href="https://aka.ms/tmt-th145b">https://aka.ms/tmt-th145b</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable Transparent Data Encryption (TDE) on Azure SQL Database instances to have data encrypted at rest. Refer:<a href="https://aka.ms/tmt-th145a">https://aka.ms/tmt-th145a</a>. Use the Always Encrypted feature to allow client applications to encrypt sensitive data before it is sent to the Azure SQL Database. Refer: <a href="https://aka.ms/tmt-th145b">https://aka.ms/tmt-th145b</a></td>
 
 </tr>
 
@@ -1524,7 +1524,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> It is recommended to review permission and role assignments to ensure the users are granted the least privileges necessary. Refer: <a href="https://aka.ms/tmt-th146">https://aka.ms/tmt-th146</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> It is recommended to review permission and role assignments to ensure the users are granted the least privileges necessary. Refer: <a href="https://aka.ms/tmt-th146">https://aka.ms/tmt-th146</a></td>
 
 </tr>
 
@@ -1578,7 +1578,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable auditing on Azure SQL Database instances to track and log database events. After configuring and customizing the audited events, enable threat detection to receive alerts on anomalous database activities indicating potential security threats. Refer: <a href="https://aka.ms/tmt-th147">https://aka.ms/tmt-th147</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable auditing on Azure SQL Database instances to track and log database events. After configuring and customizing the audited events, enable threat detection to receive alerts on anomalous database activities indicating potential security threats. Refer: <a href="https://aka.ms/tmt-th147">https://aka.ms/tmt-th147</a></td>
 
 </tr>
 
@@ -1632,7 +1632,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> It is recommended to rotate user account passwords (e.g. those used in connection strings) regularly, in accordance with your organization's policies. Store secrets in a secret storage solution (e.g. Azure Key Vault).</td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> It is recommended to rotate user account passwords (e.g. those used in connection strings) regularly, in accordance with your organization's policies. Store secrets in a secret storage solution (e.g. Azure Key Vault).</td>
 
 </tr>
 
@@ -1686,7 +1686,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable SQL Vulnerability Assessment to gain visibility into the security posture of your Azure SQL Database instances. Acting on the assessment results help reduce attack surface and enhance your database security. Refer: <a href="https://aka.ms/tmt-th149">https://aka.ms/tmt-th149</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable SQL Vulnerability Assessment to gain visibility into the security posture of your Azure SQL Database instances. Acting on the assessment results help reduce attack surface and enhance your database security. Refer: <a href="https://aka.ms/tmt-th149">https://aka.ms/tmt-th149</a></td>
 
 </tr>
 
@@ -1744,7 +1744,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a></td>
 
 </tr>
 
@@ -1798,7 +1798,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a> Enable Azure Multi-Factor Authentication for Azure Administrators. Refer: <a href="https://aka.ms/tmtauthn#multi-factor-azure-admin">https://aka.ms/tmtauthn#multi-factor-azure-admin</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Enable fine-grained access management to Azure Subscription using RBAC. Refer: <a href="https://aka.ms/tmtauthz#grained-rbac">https://aka.ms/tmtauthz#grained-rbac</a> Enable Azure Multi-Factor Authentication for Azure Administrators. Refer: <a href="https://aka.ms/tmtauthn#multi-factor-azure-admin">https://aka.ms/tmtauthn#multi-factor-azure-admin</a></td>
 
 </tr>
 
@@ -1856,7 +1856,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Override the default ADAL token cache with a scalable alternative. Refer: <a href="https://aka.ms/tmtauthn#adal-scalable">https://aka.ms/tmtauthn#adal-scalable</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Override the default ADAL token cache with a scalable alternative. Refer: <a href="https://aka.ms/tmtauthn#adal-scalable">https://aka.ms/tmtauthn#adal-scalable</a></td>
 
 </tr>
 
@@ -1910,7 +1910,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Use standard authentication scenarios supported by Azure Active Directory. Refer: <a href="https://aka.ms/tmtauthn#authn-aad">https://aka.ms/tmtauthn#authn-aad</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Use standard authentication scenarios supported by Azure Active Directory. Refer: <a href="https://aka.ms/tmtauthn#authn-aad">https://aka.ms/tmtauthn#authn-aad</a></td>
 
 </tr>
 
@@ -1964,7 +1964,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Ensure that TokenReplayCache is used to prevent the replay of ADAL authentication tokens. Refer: <a href="https://aka.ms/tmtauthn#tokenreplaycache-adal">https://aka.ms/tmtauthn#tokenreplaycache-adal</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Ensure that TokenReplayCache is used to prevent the replay of ADAL authentication tokens. Refer: <a href="https://aka.ms/tmtauthn#tokenreplaycache-adal">https://aka.ms/tmtauthn#tokenreplaycache-adal</a></td>
 
 </tr>
 
@@ -2021,7 +2021,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Network level denial of service mitigations are automatically enabled as part of the Azure platform (Basic Azure DDoS Protection). Refer: <a href="https://aka.ms/tmt-th165a">https://aka.ms/tmt-th165a</a>. Implement application level throttling (e.g. per-user, per-session, per-API) to maintain service availability and protect against DoS attacks. Leverage Azure API Management for managing and protecting APIs. Refer: <a href="https://aka.ms/tmt-th165b">https://aka.ms/tmt-th165b</a>. General throttling guidance, refer: <a href="https://aka.ms/tmt-th165c">https://aka.ms/tmt-th165c</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Network level denial of service mitigations are automatically enabled as part of the Azure platform (Basic Azure DDoS Protection). Refer: <a href="https://aka.ms/tmt-th165a">https://aka.ms/tmt-th165a</a>. Implement application level throttling (e.g. per-user, per-session, per-API) to maintain service availability and protect against DoS attacks. Leverage Azure API Management for managing and protecting APIs. Refer: <a href="https://aka.ms/tmt-th165b">https://aka.ms/tmt-th165b</a>. General throttling guidance, refer: <a href="https://aka.ms/tmt-th165c">https://aka.ms/tmt-th165c</a></td>
 
 </tr>
 
@@ -2075,7 +2075,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Store secrets in secret storage solutions where possible, and rotate secrets on a regular cadence. Use Managed Service Identity to create a managed app identity on Azure Active Directory and use it to access AAD-protected resources. Refer: <a href="https://aka.ms/tmt-th166">https://aka.ms/tmt-th166</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Store secrets in secret storage solutions where possible, and rotate secrets on a regular cadence. Use Managed Service Identity to create a managed app identity on Azure Active Directory and use it to access AAD-protected resources. Refer: <a href="https://aka.ms/tmt-th166">https://aka.ms/tmt-th166</a></td>
 
 </tr>
 
@@ -2129,7 +2129,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Restrict access to Azure App Service to selected networks (e.g. IP whitelisting, VNET integrations). Refer: <a href="https://aka.ms/tmt-th167">https://aka.ms/tmt-th167</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Restrict access to Azure App Service to selected networks (e.g. IP whitelisting, VNET integrations). Refer: <a href="https://aka.ms/tmt-th167">https://aka.ms/tmt-th167</a></td>
 
 </tr>
 
@@ -2183,7 +2183,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Ensure that only trusted origins are allowed if CORS is being used. Refer: <a href="https://aka.ms/tmt-th176">https://aka.ms/tmt-th176</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Ensure that only trusted origins are allowed if CORS is being used. Refer: <a href="https://aka.ms/tmt-th176">https://aka.ms/tmt-th176</a></td>
 
 </tr>
 
@@ -2241,7 +2241,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Network level denial of service mitigations are automatically enabled as part of the Azure platform (Basic Azure DDoS Protection). Refer: <a href="https://aka.ms/tmt-th165a">https://aka.ms/tmt-th165a</a>. Implement application level throttling (e.g. per-user, per-session, per-API) to maintain service availability and protect against DoS attacks. Leverage Azure API Management for managing and protecting APIs. Refer: <a href="https://aka.ms/tmt-th165b">https://aka.ms/tmt-th165b</a>. General throttling guidance, refer: <a href="https://aka.ms/tmt-th165c">https://aka.ms/tmt-th165c</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Network level denial of service mitigations are automatically enabled as part of the Azure platform (Basic Azure DDoS Protection). Refer: <a href="https://aka.ms/tmt-th165a">https://aka.ms/tmt-th165a</a>. Implement application level throttling (e.g. per-user, per-session, per-API) to maintain service availability and protect against DoS attacks. Leverage Azure API Management for managing and protecting APIs. Refer: <a href="https://aka.ms/tmt-th165b">https://aka.ms/tmt-th165b</a>. General throttling guidance, refer: <a href="https://aka.ms/tmt-th165c">https://aka.ms/tmt-th165c</a></td>
 
 </tr>
 
@@ -2295,7 +2295,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Store secrets in secret storage solutions where possible, and rotate secrets on a regular cadence. Use Managed Service Identity to create a managed app identity on Azure Active Directory and use it to access AAD-protected resources. Refer: <a href="https://aka.ms/tmt-th166">https://aka.ms/tmt-th166</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Store secrets in secret storage solutions where possible, and rotate secrets on a regular cadence. Use Managed Service Identity to create a managed app identity on Azure Active Directory and use it to access AAD-protected resources. Refer: <a href="https://aka.ms/tmt-th166">https://aka.ms/tmt-th166</a></td>
 
 </tr>
 
@@ -2349,7 +2349,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Restrict access to Azure App Service to selected networks (e.g. IP whitelisting, VNET integrations). Refer: <a href="https://aka.ms/tmt-th167">https://aka.ms/tmt-th167</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Restrict access to Azure App Service to selected networks (e.g. IP whitelisting, VNET integrations). Refer: <a href="https://aka.ms/tmt-th167">https://aka.ms/tmt-th167</a></td>
 
 </tr>
 
@@ -2403,7 +2403,7 @@ _____
 
 <td id="threat-title-property" role="rowheader" tabindex="0">**Possible Mitigation(s):**</td>
 
-<td tabindex="0" role="gridcell" headers="threat-title-property"><style scoped="scoped">p { margin : 2px; }</style> Ensure that only trusted origins are allowed if CORS is being used. Refer: <a href="https://aka.ms/tmt-th176">https://aka.ms/tmt-th176</a></td>
+<td tabindex="0" role="gridcell" headers="threat-title-property"> Ensure that only trusted origins are allowed if CORS is being used. Refer: <a href="https://aka.ms/tmt-th176">https://aka.ms/tmt-th176</a></td>
 
 </tr>
 
